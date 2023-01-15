@@ -6,7 +6,7 @@ const Counter = () => {
     const count = useSelector((state) => state.counter);
     const dispatch = useDispatch()
     return (
-        <div>
+        <div className='counter'>
             <h2>Redux Toolkit</h2>
             <h3>Counter App</h3>
                 <p>Count: {count}</p>

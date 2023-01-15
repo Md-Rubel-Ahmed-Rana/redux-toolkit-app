@@ -1,12 +1,26 @@
 .App {
   text-align: center;
-  width: 500px;
   margin: 10px auto;
+  width: 1000px;
+  border-radius: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+
+ul{
+  list-style: none;
+  text-align: left;
+}
+
+.todos, .counter{
   background-color: aqua;
   padding: 20px;
   border-radius: 10px;
 }
-
+.todos{
+  width: 300px;
+}
 .wrapper{
   display: flex;
   width: 450px;
@@ -17,7 +31,7 @@ p{
   font-weight: bold;
 }
 
-button{
+button, input{
   background-color: blue;
   padding: 10px;
   margin: 5px;
